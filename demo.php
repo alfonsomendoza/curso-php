@@ -4,10 +4,10 @@
     $b = 6;
     $suma = $a + $b;
     echo "$suma";
-    $age=39;
-    $new_age=$age+"1";
+    $age = 39;
+    $new_age = $age + "1";
 
-      echo "$new_age"
+    echo "$new_age"
 
     ?>
 </h1>
@@ -22,14 +22,28 @@
     }
 </style>
 
-<P><?php 
-  echo $new_age;
-?></P>
+<P><?php
+    echo $new_age;
+    ?></P>
 
 <h2><?=
     $new_age;
-?></h2>
- <script>alert("Hola mundo")</script>
+    ?></h2>
+<script>
+    alert("Hola mundo")
+</script>
 
 
- <?php phpinfo() ?>
+<?php
+
+$person = [
+    "name" => 'miguel',
+    "edad" => 78,
+    "isDev" => true,
+    "Languagues" => ["PHP", "Javascript", "Python"],
+
+
+];
+
+
+?>
